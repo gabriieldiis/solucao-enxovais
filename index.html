@@ -1,0 +1,1177 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Solução Enxovais | Enxoval e equipamentos para hotéis e hospitais em MS e MT</title>
+<meta name="description" content="Enxoval profissional, colchões, amenities e equipamentos para hotéis, pousadas, motéis e hospitais em Mato Grosso do Sul e Mato Grosso. Monte seu orçamento online.">
+<meta property="og:title" content="Solução Enxovais — tudo o que o quarto do seu hóspede precisa">
+<meta property="og:description" content="Enxoval, colchões, amenities e equipamentos das melhores marcas para hotéis e hospitais de MS e MT.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#143A2E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --linen:#EDEFE8;
+  --paper:#F7F8F4;
+  --white:#FFFFFF;
+  --forest:#143A2E;
+  --forest-2:#1E4D3D;
+  --sage:#8FA68F;
+  --sage-soft:#DCE4DA;
+  --brass:#B48A3C;
+  --brass-soft:#EBDDBF;
+  --ink:#18211C;
+  --muted:#56625A;
+  --line:#D3D9CE;
+  --r-s:6px; --r-m:14px; --r-l:26px;
+  --serif:"Cormorant Garamond", Georgia, serif;
+  --sans:"Albert Sans", system-ui, sans-serif;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+@media (min-width:900px){body{padding-bottom:0}}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+@media (min-width:900px){.wrap{padding:0 40px}}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.05;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(2.1rem,6vw,3.4rem)}
+h3{font-size:1.6rem}
+p{margin:0}
+.lead{color:var(--muted);font-size:1.06rem;max-width:56ch}
+section{scroll-margin-top:72px}
+.sec{padding:72px 0}
+@media (min-width:900px){.sec{padding:112px 0}}
+.sec-head{display:grid;gap:14px;margin-bottom:36px;max-width:640px}
+
+/* botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 24px;border-radius:999px;border:1.5px solid transparent;font-weight:600;font-size:.98rem;text-decoration:none;transition:background .2s,color .2s,border-color .2s}
+.btn-primary{background:var(--forest);color:var(--paper)}
+.btn-primary:hover{background:var(--forest-2)}
+.btn-ghost{border-color:var(--forest);color:var(--forest);background:transparent}
+.btn-ghost:hover{background:var(--forest);color:var(--paper)}
+.btn-brass{background:var(--brass);color:#fff}
+.btn-brass:hover{background:#9c7631}
+.btn svg{width:18px;height:18px}
+
+/* faixa de protótipo */
+.proto{background:var(--brass-soft);color:#5b4518;font-size:.82rem;text-align:center;padding:7px 16px}
+
+/* header */
+header.top{position:sticky;top:0;z-index:40;background:rgba(247,248,244,.9);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid transparent;transition:border-color .2s}
+header.top.scrolled{border-color:var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-mark{width:36px;height:36px}
+.logo-text{font-family:var(--serif);font-size:1.45rem;font-weight:700;line-height:1;color:var(--forest)}
+.logo-text small{display:block;font-family:var(--sans);font-size:.66rem;font-weight:500;color:var(--muted);letter-spacing:.02em;margin-top:3px}
+nav.main{display:none;gap:28px;font-size:.95rem;font-weight:500}
+nav.main a{text-decoration:none;color:var(--muted)}
+nav.main a:hover{color:var(--forest)}
+.top-actions{display:flex;align-items:center;gap:10px}
+.list-btn{display:none;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid var(--forest);background:none;font-weight:600;color:var(--forest)}
+.count{display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:999px;background:var(--brass);color:#fff;font-size:.76rem;font-weight:700;padding:0 6px}
+.menu-btn{width:44px;height:44px;border:0;background:none;display:grid;place-items:center}
+@media (min-width:900px){nav.main{display:flex}.list-btn{display:inline-flex}.menu-btn{display:none}}
+.mobile-nav{display:none;position:fixed;inset:68px 0 0;z-index:39;background:var(--paper);padding:24px 20px}
+.mobile-nav.open{display:block}
+.mobile-nav a{display:block;font-family:var(--serif);font-size:2rem;font-weight:600;text-decoration:none;padding:10px 0;border-bottom:1px solid var(--line);color:var(--forest)}
+
+/* hero */
+.hero{padding:36px 0 56px;background:linear-gradient(var(--paper),var(--linen))}
+.hero-grid{display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
+.hero-room{min-width:0}
+.hero h1{font-size:clamp(2.7rem,11vw,4.6rem);color:var(--forest)}
+.hero h1 span{display:block;white-space:nowrap}
+.hero .lead{margin-top:16px}
+.seg-toggle{display:inline-flex;padding:4px;border-radius:999px;background:var(--white);border:1px solid var(--line);margin-top:22px}
+.seg-toggle button{border:0;background:none;padding:10px 20px;border-radius:999px;font-weight:600;font-size:.92rem;color:var(--muted)}
+.seg-toggle button[aria-pressed="true"]{background:var(--forest);color:var(--paper)}
+.room-wrap{position:relative;border-radius:var(--r-l);overflow:hidden;background:#E3E7DE;box-shadow:0 30px 60px -30px rgba(20,58,46,.45)}
+.room-wrap svg{width:100%;height:auto}
+.hs{position:absolute;transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.95);box-shadow:0 2px 10px rgba(20,58,46,.35);display:grid;place-items:center;padding:0}
+.hs::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--brass);transition:transform .2s}
+.hs::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(255,255,255,.85);animation:pulse 2.4s ease-out infinite}
+.hs[aria-pressed="true"]{background:var(--forest)}
+.hs[aria-pressed="true"]::before{background:#fff;transform:scale(.8)}
+.hs[aria-pressed="true"]::after{animation:none;border-color:var(--forest)}
+@keyframes pulse{0%{transform:scale(.7);opacity:1}100%{transform:scale(1.5);opacity:0}}
+.room-hint{position:absolute;left:14px;bottom:14px;background:rgba(20,58,46,.86);color:#fff;font-size:.8rem;padding:7px 12px;border-radius:999px;pointer-events:none}
+.spot-card{background:var(--white);border-radius:var(--r-m);border:1px solid var(--line);padding:22px;display:grid;gap:10px;min-height:212px}
+.spot-card .brand{font-size:.85rem;font-weight:600;color:var(--brass)}
+.spot-card h3{color:var(--forest)}
+.spot-card ul{margin:2px 0 6px;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.spot-card li{font-size:.8rem;background:var(--linen);border-radius:999px;padding:4px 10px;color:var(--muted)}
+.spot-card .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.spot-nav{display:flex;gap:6px;margin-left:auto}
+.spot-nav button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:none;display:grid;place-items:center}
+.hero-cta{display:flex;gap:10px;flex-wrap:wrap}
+.hero-cta .btn{flex:1 1 auto}
+@media (max-width:899px){.hs{width:28px;height:28px}.hs::before{width:10px;height:10px}.hs::after{inset:-4px}.hero .lead{font-size:1rem}}
+@media (min-width:900px){
+  .hero{padding:64px 0 96px}
+  .hero-grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-rows:auto 1fr;column-gap:56px;row-gap:28px;align-items:start}
+  .hero-text{grid-column:1;grid-row:1}
+  .hero-room{grid-column:2;grid-row:1 / span 2}
+  .hero-cta{grid-column:1;grid-row:2}
+  .hero-cta .btn{flex:none}
+}
+
+/* números */
+.facts{background:var(--forest);color:var(--paper);padding:40px 0}
+.facts .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 16px}
+.fact b{display:block;font-family:var(--serif);font-size:2.9rem;font-weight:600;line-height:1}
+.fact span{font-size:.9rem;color:#BFD0C4}
+@media (min-width:900px){.facts .wrap{grid-template-columns:repeat(4,1fr)}}
+
+/* marcas */
+.brands{padding:30px 0;border-bottom:1px solid var(--line);overflow:hidden;background:var(--paper)}
+.brands p{text-align:center;color:var(--muted);font-size:.9rem;margin-bottom:16px}
+.marquee{display:flex;width:max-content;animation:scroll 40s linear infinite}
+.marquee span{font-family:var(--serif);font-size:1.9rem;font-weight:600;color:var(--forest);padding:0 26px;white-space:nowrap;display:flex;align-items:center;gap:26px}
+.marquee span::after{content:"";width:7px;height:7px;background:var(--brass);transform:rotate(45deg)}
+.brands:hover .marquee{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* segmentos */
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -20px 24px;padding:0 20px}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;border:1.5px solid var(--line);background:var(--white);padding:11px 18px;border-radius:999px;font-weight:600;font-size:.93rem;color:var(--muted)}
+.tabs button[aria-selected="true"]{border-color:var(--forest);background:var(--forest);color:var(--paper)}
+.seg-panel{display:grid;gap:24px;background:var(--white);border-radius:var(--r-l);padding:28px;border:1px solid var(--line)}
+.seg-panel h3{font-size:2rem;color:var(--forest)}
+.seg-panel .pains{display:grid;gap:14px;margin:0;padding:0;list-style:none}
+.seg-panel .pains li{display:grid;grid-template-columns:28px 1fr;gap:10px}
+.seg-panel .pains svg{width:22px;height:22px;color:var(--brass);margin-top:2px}
+.seg-panel .pains b{display:block}
+.seg-panel .pains small{color:var(--muted);font-size:.92rem}
+.seg-kit{background:var(--linen);border-radius:var(--r-m);padding:20px}
+.seg-kit h4{margin:0 0 10px;font-size:.95rem}
+.seg-kit ul{margin:0 0 16px;padding-left:18px;color:var(--muted)}
+@media (min-width:900px){.seg-panel{grid-template-columns:1.3fr 1fr;padding:44px;gap:44px}.tabs{margin:0 0 28px;padding:0}}
+
+/* calculadora */
+.calc{background:var(--linen)}
+.calc-grid{display:grid;gap:24px}
+.calc-form{background:var(--white);border-radius:var(--r-l);padding:24px;border:1px solid var(--line);display:grid;gap:22px}
+.field label,.field .lbl{display:block;font-weight:600;font-size:.92rem;margin-bottom:8px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills input{position:absolute;opacity:0;pointer-events:none}
+.pills label{margin:0;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:9px 16px;font-size:.92rem;cursor:pointer;color:var(--muted)}
+.pills input:checked+label{border-color:var(--forest);background:var(--forest);color:var(--paper)}
+.pills input:focus-visible+label{outline:3px solid var(--brass);outline-offset:2px}
+.stepper{display:flex;align-items:center;gap:12px}
+.stepper button{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--line);background:none;font-size:1.4rem;line-height:1}
+.stepper input[type=number]{width:96px;height:46px;text-align:center;font-family:var(--serif);font-size:1.8rem;font-weight:600;border:0;background:none;color:var(--forest);-moz-appearance:textfield}
+.stepper input::-webkit-inner-spin-button{-webkit-appearance:none}
+input[type=range]{width:100%;accent-color:var(--forest);margin-top:12px}
+.hint{font-size:.85rem;color:var(--muted);margin-top:8px}
+.calc-out{background:var(--forest);color:var(--paper);border-radius:var(--r-l);padding:26px;display:grid;gap:18px;align-content:start}
+.calc-out h3{font-size:1.9rem}
+.calc-out .sub{color:#BFD0C4;font-size:.92rem}
+.out-list{list-style:none;margin:0;padding:0;display:grid}
+.out-list li{display:flex;justify-content:space-between;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.out-list li span{color:#DCE6DF}
+.out-list li b{font-family:var(--serif);font-size:1.7rem;font-weight:600}
+.out-total{display:flex;justify-content:space-between;align-items:baseline}
+.out-total b{font-family:var(--serif);font-size:2.6rem;font-weight:600;color:var(--brass-soft)}
+@media (min-width:900px){.calc-grid{grid-template-columns:1fr 1fr;gap:32px}.calc-form,.calc-out{padding:36px}}
+
+/* catálogo */
+.filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -20px 22px;padding:0 20px}
+.filters::-webkit-scrollbar{display:none}
+.filters button{flex:none;border:1.5px solid var(--line);background:var(--white);padding:9px 16px;border-radius:999px;font-weight:500;font-size:.9rem;color:var(--muted)}
+.filters button[aria-pressed="true"]{border-color:var(--forest);color:var(--forest);font-weight:700;background:var(--sage-soft)}
+.search{position:relative;margin-bottom:14px}
+.search input{width:100%;height:52px;border-radius:999px;border:1.5px solid var(--line);background:var(--white);padding:0 20px 0 48px;font:inherit}
+.search svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted)}
+.products{display:grid;gap:12px}
+.prod{display:grid;grid-template-columns:88px 1fr;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:var(--r-m);padding:12px;align-items:center}
+.swatch{width:88px;height:88px;border-radius:10px;display:grid;place-items:center;overflow:hidden;position:relative}
+.swatch svg{width:40px;height:40px;color:var(--forest)}
+.prod .b{font-size:.78rem;font-weight:600;color:var(--brass)}
+.prod h4{margin:2px 0 4px;font-size:1.02rem;line-height:1.25}
+.prod .spec{font-size:.82rem;color:var(--muted)}
+.prod .add{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding-top:10px}
+.prod .add small{color:var(--muted);font-size:.8rem}
+.add-btn{border:1.5px solid var(--forest);background:none;color:var(--forest);border-radius:999px;min-height:40px;padding:0 16px;font-weight:600;font-size:.88rem}
+.add-btn.added{background:var(--forest);color:var(--paper)}
+.more{display:flex;justify-content:center;margin-top:18px}
+.empty{padding:30px;text-align:center;color:var(--muted);border:1.5px dashed var(--line);border-radius:var(--r-m)}
+@media (min-width:700px){.products{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){
+  .products{grid-template-columns:repeat(3,1fr);gap:18px}
+  .prod{grid-template-columns:1fr;padding:0;overflow:hidden;align-items:start}
+  .prod .swatch{width:100%;height:170px;border-radius:0}
+  .prod .info{padding:4px 18px 0}
+  .prod .add{margin:0 18px 16px}
+  .filters{margin:0 0 22px;padding:0}
+}
+/* texturas */
+.fabric{background-color:var(--c,#fff);background-image:repeating-linear-gradient(45deg,rgba(0,0,0,.035) 0 1px,transparent 1px 4px),repeating-linear-gradient(-45deg,rgba(0,0,0,.03) 0 1px,transparent 1px 4px)}
+.terry{background-color:var(--c,#fff);background-image:radial-gradient(rgba(0,0,0,.08) 1px,transparent 1.6px);background-size:5px 5px}
+.terry::after,.fabric::after{content:"";position:absolute;left:0;right:0;bottom:16%;height:9%;background:var(--band,transparent)}
+.obj{background:var(--sage-soft)}
+
+/* cases */
+.cases{background:var(--forest);color:var(--paper)}
+.cases .lead{color:#BFD0C4}
+.case-track{display:grid;grid-auto-flow:column;grid-auto-columns:86%;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:0 20px 8px;scrollbar-width:none}
+.case-track::-webkit-scrollbar{display:none}
+.case{scroll-snap-align:start;background:var(--forest-2);border-radius:var(--r-l);overflow:hidden;display:grid}
+.case-art{height:170px;position:relative}
+.case-body{padding:22px;display:grid;gap:12px}
+.case-body .where{font-size:.85rem;color:var(--brass-soft)}
+.case-body h3{font-size:1.65rem}
+.case-body blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.35;color:#E6EEE8}
+.case-body cite{font-style:normal;font-size:.85rem;color:#9FB6A7}
+.case-stats{display:flex;gap:22px;border-top:1px solid rgba(255,255,255,.14);padding-top:14px}
+.case-stats b{display:block;font-family:var(--serif);font-size:1.8rem;font-weight:600;line-height:1}
+.case-stats span{font-size:.8rem;color:#BFD0C4}
+@media (min-width:900px){.case-track{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);margin:0;padding:0;overflow:visible}}
+
+/* processo */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:56px 1fr;gap:16px;padding:22px 0;border-top:1px solid var(--line)}
+.steps li::before{content:counter(s);font-family:var(--serif);font-size:2.6rem;font-weight:600;color:var(--brass);line-height:.9}
+.steps b{display:block;font-size:1.08rem;margin-bottom:4px}
+.steps p{color:var(--muted)}
+@media (min-width:900px){.steps{grid-template-columns:repeat(4,1fr);gap:28px}.steps li{grid-template-columns:1fr;gap:10px}}
+
+/* área */
+.area{display:grid;gap:28px}
+.cities{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cities h4{margin:0 0 8px;font-family:var(--serif);font-size:1.5rem;color:var(--forest)}
+.cities ul{margin:0;padding:0;list-style:none;color:var(--muted);display:grid;gap:4px}
+@media (min-width:900px){.area{grid-template-columns:1fr 1fr;align-items:start}}
+
+/* orçamento */
+.quote{background:var(--linen)}
+.quote-grid{display:grid;gap:24px}
+form.qform{background:var(--white);border-radius:var(--r-l);padding:24px;border:1px solid var(--line);display:grid;gap:16px}
+.qform .two{display:grid;gap:16px}
+.qform label{display:block;font-weight:600;font-size:.9rem;margin-bottom:6px}
+.qform input,.qform select,.qform textarea{width:100%;min-height:50px;border-radius:var(--r-s);border:1.5px solid var(--line);background:var(--paper);padding:12px 14px;font:inherit;color:var(--ink)}
+.qform textarea{min-height:96px;resize:vertical}
+.qform input:focus,.qform select:focus,.qform textarea:focus{border-color:var(--forest);outline:none}
+.qform .err{color:#A23B2A;font-size:.82rem;margin-top:4px;display:none}
+.qform .invalid input,.qform .invalid select{border-color:#A23B2A}
+.qform .invalid .err{display:block}
+.qform .lgpd{font-size:.8rem;color:var(--muted)}
+.qsum{background:var(--white);border-radius:var(--r-l);padding:24px;border:1px solid var(--line);align-self:start}
+.qsum h3{color:var(--forest);margin-bottom:10px}
+@media (min-width:700px){.qform .two{grid-template-columns:1fr 1fr}}
+@media (min-width:900px){.quote-grid{grid-template-columns:1.4fr 1fr;gap:32px}form.qform{padding:36px}}
+
+/* lista */
+.qitems{list-style:none;margin:0;padding:0;display:grid}
+.qitems li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line);align-items:center}
+.qitems .n{font-weight:600;font-size:.95rem;line-height:1.3}
+.qitems .m{font-size:.8rem;color:var(--muted)}
+.qty{display:flex;align-items:center;gap:6px;grid-row:span 2}
+.qty button{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:none;line-height:1}
+.qty span{min-width:36px;text-align:center;font-weight:600;font-size:.9rem}
+.qempty{color:var(--muted);font-size:.95rem;padding:10px 0}
+
+/* barra fixa mobile */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:45;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(247,248,244,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+.dock .btn{min-height:52px;padding:0 12px;font-size:.95rem}
+.btn-wa{background:#1F7A4D;color:#fff}
+@media (min-width:900px){.dock{display:none}}
+.wa-float{display:none}
+@media (min-width:900px){.wa-float{display:grid;place-items:center;position:fixed;right:28px;bottom:28px;width:60px;height:60px;border-radius:50%;background:#1F7A4D;color:#fff;border:0;box-shadow:0 10px 24px -8px rgba(0,0,0,.4);z-index:45}.wa-float svg{width:28px;height:28px}}
+
+/* gaveta e modal */
+.scrim{position:fixed;inset:0;background:rgba(24,33,28,.45);z-index:60;opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.show{opacity:1;pointer-events:auto}
+.drawer{position:fixed;z-index:61;left:0;right:0;bottom:0;max-height:86vh;background:var(--paper);border-radius:22px 22px 0 0;transform:translateY(105%);transition:transform .3s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column}
+.drawer.open{transform:none}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}
+.drawer-head h3{color:var(--forest)}
+.drawer-body{padding:6px 20px;overflow:auto;flex:1}
+.drawer-foot{padding:14px 20px calc(14px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+.drawer-foot .btn{width:100%}
+.x{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:none;font-size:1.3rem}
+@media (min-width:900px){.drawer{left:auto;top:0;width:420px;max-height:none;border-radius:0;transform:translateX(105%)}.drawer.open{transform:none}}
+.modal{position:fixed;z-index:62;left:50%;top:50%;transform:translate(-50%,-46%);opacity:0;pointer-events:none;width:min(92vw,440px);background:var(--paper);border-radius:var(--r-l);padding:28px;transition:opacity .25s,transform .25s;display:grid;gap:14px}
+.modal.open{opacity:1;pointer-events:auto;transform:translate(-50%,-50%)}
+.modal h3{color:var(--forest);font-size:1.9rem}
+.wa-preview{background:#E5F3E7;border-radius:12px 12px 12px 2px;padding:14px;font-size:.88rem;white-space:pre-line;max-height:240px;overflow:auto;color:#1d3326}
+.toast{position:fixed;z-index:70;left:50%;bottom:96px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:999px;font-size:.9rem;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+body.drawer-open .toast{bottom:auto;top:24px}
+@media (min-width:900px){.toast{bottom:32px}}
+
+footer{background:var(--ink);color:#C8D1CB;padding:52px 0 40px;font-size:.92rem}
+footer .wrap{display:grid;gap:28px}
+footer .logo-text{color:#fff}
+footer .logo-text small{color:#9AA79F}
+footer h4{color:#fff;margin:0 0 10px;font-size:.95rem}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+footer a{text-decoration:none}
+footer .legal{border-top:1px solid #2E3A33;padding-top:20px;font-size:.8rem;color:#8B988F}
+@media (min-width:900px){footer .wrap{grid-template-columns:2fr 1fr 1fr 1fr}footer .legal{grid-column:1/-1}}
+
+
+/* ===== v2: UX refinements ===== */
+.room-tag{position:absolute;z-index:3;transform:translate(16px,-50%);background:var(--forest);color:#fff;font-size:.78rem;font-weight:600;padding:6px 11px;border-radius:999px;white-space:nowrap;pointer-events:none;box-shadow:0 6px 16px -6px rgba(20,58,46,.6);transition:left .25s,top .25s}
+.room-tag.left{transform:translate(calc(-100% - 16px),-50%)}
+.hs{z-index:2}
+.hs.in{background:var(--sage-soft)}
+.hs.in::before{width:11px;height:6px;border-radius:0;background:none;border-left:2.5px solid var(--forest);border-bottom:2.5px solid var(--forest);transform:translate(0,-1px) rotate(-45deg)}
+.hs.in::after{animation:none;opacity:0}
+.hs.in[aria-pressed="true"]::before{background:none;border-color:#fff;transform:translate(0,-1px) rotate(-45deg)}
+.rail{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:12px -20px 0;padding:2px 20px 4px}
+.rail::-webkit-scrollbar{display:none}
+.rail button{flex:none;display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line);background:var(--white);border-radius:999px;padding:8px 14px;font-size:.86rem;font-weight:600;color:var(--muted)}
+.rail button[aria-pressed="true"]{border-color:var(--forest);color:var(--forest);background:var(--sage-soft)}
+.rail .ok{width:14px;height:14px;display:none;color:var(--forest)}
+.rail button.in .ok{display:block}
+@media (min-width:900px){.rail{display:none}}
+html,body{overflow-x:clip}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.prog-txt{font-size:.8rem;color:var(--muted)}
+.prog{height:4px;border-radius:4px;background:var(--linen);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--brass);transition:width .35s ease}
+.link-btn{border:0;background:none;padding:6px 2px;font-weight:600;font-size:.9rem;color:var(--forest);text-decoration:underline;text-underline-offset:3px}
+.btn.sm{min-height:44px;padding:0 18px}
+@keyframes bump{50%{transform:scale(1.4)}}
+.count.bump{animation:bump .35s ease}
+.swatch.stack{background:var(--linen);border:1px solid var(--line)}
+.swatch.stack svg{width:94%;height:auto}
+.swatch.obj svg{width:46px;height:46px}
+@media (min-width:1000px){.swatch.stack svg{width:62%}.swatch.obj svg{width:60px;height:60px}}
+.act .qty{grid-row:auto}
+.act .qty button{width:36px;height:36px;background:var(--white)}
+.act .qty span{min-width:44px}
+.giro-vis{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:14px}
+.giro-vis div{display:grid;justify-items:center;gap:4px;text-align:center;font-size:.72rem;line-height:1.2;color:var(--muted)}
+.giro-vis svg{width:100%;max-width:56px;height:auto}
+.giro-vis .off{opacity:.25}
+.case-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:24px 16px;margin-bottom:36px;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.14)}
+.case-facts .fact b{font-size:2.6rem}
+.case-facts .fact span{color:#BFD0C4;font-size:.88rem}
+@media (min-width:900px){.case-facts{grid-template-columns:repeat(4,1fr)}}
+.qform .two.keep{grid-template-columns:1fr 1fr}
+.case-track{scroll-padding-inline:20px}
+.qempty-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.qempty-actions a{font-size:.86rem;font-weight:600;color:var(--forest);border:1.5px solid var(--forest);border-radius:999px;padding:8px 14px;text-decoration:none}
+@media (max-width:899px){
+  .qsum{order:-1;padding:18px 20px}
+  .qsum h3{font-size:1.4rem;margin-bottom:4px}
+  .qsum .qitems li:nth-child(n+4){display:none}
+  .out-list{grid-template-columns:1fr 1fr;column-gap:20px}
+  .out-list li{flex-direction:column;align-items:flex-start;gap:0;padding:10px 0}
+  .out-list li b{font-size:1.6rem}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<div class="proto" role="note">Protótipo de demonstração. Marcas parceiras reais; números, cases, depoimentos e contatos são fictícios.</div>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a href="#inicio" class="logo" aria-label="Solução Enxovais, início">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#143A2E"/><path d="M9 27c4-1 7-4 11-4s7 3 11 4M9 21c4-1 7-4 11-4s7 3 11 4M9 15c4-1 7-4 11-4s7 3 11 4" fill="none" stroke="#EBDDBF" stroke-width="2" stroke-linecap="round"/></svg>
+      <span class="logo-text">Solução Enxovais<small>Hotelaria e saúde · MS e MT</small></span>
+    </a>
+    <nav class="main" aria-label="Principal">
+      <a href="#inicio">O quarto</a>
+      <a href="#segmentos">Segmentos</a>
+      <a href="#calculadora">Calculadora</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#cases">Cases</a>
+      <a href="#orcamento">Contato</a>
+    </nav>
+    <div class="top-actions">
+      <button class="list-btn" data-open-list>Lista de orçamento <span class="count" data-count>0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16" stroke="#143A2E" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Menu">
+  <a href="#inicio">O quarto</a>
+  <a href="#segmentos">Segmentos</a>
+  <a href="#calculadora">Calculadora de enxoval</a>
+  <a href="#catalogo">Catálogo</a>
+  <a href="#cases">Cases</a>
+  <a href="#orcamento">Pedir orçamento</a>
+</nav>
+
+<main>
+<!-- HERO: quarto interativo -->
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1><span>Do lençol</span><span>à fechadura.</span></h1>
+      <p class="lead">Enxoval, colchões, amenities e equipamentos das melhores marcas para hotéis e hospitais de Mato Grosso do Sul e Mato Grosso. Um fornecedor, um pedido, um consultor.</p>
+      <div class="seg-toggle" role="group" aria-label="Escolha o ambiente">
+        <button aria-pressed="true" data-scene="hotel">Quarto de hotel</button>
+        <button aria-pressed="false" data-scene="hosp">Quarto hospitalar</button>
+      </div>
+    </div>
+    <div class="hero-room">
+      <div class="room-wrap" id="room">
+        <svg viewBox="0 0 800 560" role="img" aria-labelledby="roomTitle">
+          <title id="roomTitle">Ilustração de um quarto equipado com produtos da Solução Enxovais</title>
+          <!-- parede e piso comuns -->
+          <rect width="800" height="400" fill="#E3E7DE"/>
+          <rect y="360" width="800" height="40" fill="#D6DCD0"/>
+          <rect y="400" width="800" height="160" fill="#C9B79A"/>
+          <g stroke="#B9A685" stroke-width="2"><path d="M0 440h800M0 485h800M0 528h800"/><path d="M120 400v40M330 440v45M560 400v40M700 485v43M240 485v43M470 528v32"/></g>
+          <rect y="398" width="800" height="6" fill="#A8946F"/>
+
+          <!-- CENA HOTEL -->
+          <g id="scene-hotel">
+            <!-- banheiro -->
+            <rect x="26" y="96" width="168" height="306" fill="#F4F6F2"/>
+            <rect x="34" y="104" width="152" height="296" fill="#D5E1DF"/>
+            <g stroke="#C3D2CF" stroke-width="1.5"><path d="M34 140h152M34 176h152M34 212h152M34 248h152M34 284h152M34 320h152M34 356h152M72 104v296M110 104v296M148 104v296"/></g>
+            <rect x="58" y="126" width="100" height="74" rx="6" fill="#EAF1F1" stroke="#B48A3C" stroke-width="3"/>
+            <path d="M70 186l26-40M96 186l20-28" stroke="#fff" stroke-width="3" opacity=".7"/>
+            <rect x="42" y="254" width="136" height="16" rx="3" fill="#F7F8F4"/>
+            <rect x="48" y="270" width="124" height="36" fill="#7E6A4E"/>
+            <ellipse cx="118" cy="257" rx="22" ry="5" fill="#C9D6D4"/>
+            <rect x="58" y="232" width="9" height="22" rx="3" fill="#B48A3C"/>
+            <rect x="70" y="236" width="9" height="18" rx="3" fill="#8FA68F"/>
+            <rect x="82" y="240" width="9" height="14" rx="3" fill="#EBDDBF"/>
+            <!-- secador -->
+            <rect x="164" y="196" width="18" height="28" rx="4" fill="#2C3A33"/>
+            <path d="M173 224c0 14-8 12-8 22" stroke="#2C3A33" stroke-width="2.5" fill="none"/>
+            <rect x="157" y="232" width="14" height="20" rx="4" fill="#2C3A33"/>
+            <!-- toalhas -->
+            <rect x="52" y="318" width="116" height="6" rx="3" fill="#9AA59F"/>
+            <rect x="66" y="322" width="88" height="62" rx="3" fill="#FFFFFF"/>
+            <rect x="66" y="366" width="88" height="7" fill="#B48A3C"/>
+            <rect x="26" y="96" width="168" height="306" fill="none" stroke="#F7F8F4" stroke-width="8"/>
+
+            <!-- quadro -->
+            <rect x="335" y="66" width="140" height="88" fill="#B48A3C"/>
+            <rect x="343" y="74" width="124" height="72" fill="#F3EEE1"/>
+            <path d="M343 128c20-18 40-26 62-14s40 4 62-10v42H343z" fill="#8FA68F"/>
+            <circle cx="438" cy="98" r="11" fill="#D9B46A"/>
+
+            <!-- criado esquerdo + abajur -->
+            <rect x="203" y="318" width="46" height="74" rx="4" fill="#6E5536"/>
+            <rect x="203" y="342" width="46" height="2" fill="#5A452C"/>
+            <path d="M213 296h26l-6-26h-14z" fill="#EBDDBF"/>
+            <rect x="224" y="296" width="4" height="22" fill="#6E5536"/>
+
+            <!-- cabeceira -->
+            <rect x="262" y="176" width="286" height="132" rx="12" fill="#1E4D3D"/>
+            <g fill="#163E31"><circle cx="310" cy="210" r="3"/><circle cx="360" cy="210" r="3"/><circle cx="410" cy="210" r="3"/><circle cx="460" cy="210" r="3"/><circle cx="510" cy="210" r="3"/><circle cx="335" cy="245" r="3"/><circle cx="385" cy="245" r="3"/><circle cx="435" cy="245" r="3"/><circle cx="485" cy="245" r="3"/></g>
+            <!-- colchão -->
+            <rect x="252" y="292" width="306" height="96" rx="8" fill="#F7F8F4"/>
+            <rect x="252" y="368" width="306" height="22" rx="5" fill="#DCE4DA"/>
+            <path d="M262 379h286" stroke="#B9C7B8" stroke-width="2" stroke-dasharray="6 5"/>
+            <!-- travesseiros -->
+            <rect x="280" y="252" width="116" height="54" rx="20" fill="#FFFFFF" stroke="#D3D9CE" stroke-width="2"/>
+            <rect x="414" y="252" width="116" height="54" rx="20" fill="#FFFFFF" stroke="#D3D9CE" stroke-width="2"/>
+            <!-- edredom -->
+            <path d="M246 318h318v40c0 6-4 10-10 10H256c-6 0-10-4-10-10z" fill="#FFFFFF" stroke="#D3D9CE" stroke-width="2"/>
+            <path d="M250 330h310" stroke="#E7EBE3" stroke-width="3"/>
+            <rect x="246" y="338" width="318" height="16" fill="#1E4D3D"/>
+            <rect x="246" y="341" width="318" height="2" fill="#B48A3C"/>
+            <!-- pés -->
+            <rect x="262" y="390" width="8" height="12" fill="#5A452C"/><rect x="540" y="390" width="8" height="12" fill="#5A452C"/>
+
+            <!-- frigobar + abajur -->
+            <rect x="568" y="316" width="70" height="80" rx="5" fill="#F4F6F2" stroke="#C9D0C6" stroke-width="2"/>
+            <rect x="626" y="332" width="4" height="26" rx="2" fill="#9AA59F"/>
+            <path d="M590 294h26l-6-26h-14z" fill="#EBDDBF"/>
+            <rect x="601" y="294" width="4" height="22" fill="#6E5536"/>
+
+            <!-- ar-condicionado -->
+            <rect x="586" y="40" width="156" height="46" rx="10" fill="#FBFCFA" stroke="#C9D0C6" stroke-width="2"/>
+            <path d="M600 74h128M600 79h128" stroke="#C9D0C6" stroke-width="2"/>
+            <circle cx="726" cy="54" r="3" fill="#8FA68F"/>
+
+            <!-- porta + fechadura -->
+            <rect x="672" y="108" width="114" height="294" fill="#F4F6F2"/>
+            <rect x="680" y="116" width="98" height="286" fill="#8A6A44"/>
+            <rect x="694" y="132" width="70" height="104" rx="3" fill="none" stroke="#765936" stroke-width="3"/>
+            <rect x="694" y="254" width="70" height="128" rx="3" fill="none" stroke="#765936" stroke-width="3"/>
+            <rect x="688" y="246" width="18" height="38" rx="4" fill="#22302A"/>
+            <circle cx="697" cy="257" r="3.5" fill="#6FCF97"/>
+            <rect x="692" y="288" width="22" height="5" rx="2" fill="#C9C9C9"/>
+          </g>
+
+          <!-- CENA HOSPITAL -->
+          <g id="scene-hosp" style="display:none">
+            <!-- trilho e cortina -->
+            <rect x="16" y="34" width="210" height="6" rx="3" fill="#9AA59F"/>
+            <path d="M24 40h190v330c-14 6-24-6-38 0s-24-6-38 0-24-6-38 0-24-6-38 0-24-6-38 0z" fill="#A9C6BC"/>
+            <g stroke="#8FB0A5" stroke-width="3"><path d="M52 44v322M90 44v322M128 44v322M166 44v322"/></g>
+            <!-- painel gases -->
+            <rect x="290" y="96" width="230" height="34" rx="6" fill="#F4F6F2" stroke="#C9D0C6" stroke-width="2"/>
+            <circle cx="318" cy="113" r="7" fill="#6FA8DC"/><circle cx="346" cy="113" r="7" fill="#7FBF8E"/><circle cx="374" cy="113" r="7" fill="#E5C07B"/>
+            <rect x="420" y="106" width="80" height="14" rx="3" fill="#DCE4DA"/>
+            <!-- camisola no cabide -->
+            <path d="M232 150l18-10 18 10" stroke="#9AA59F" stroke-width="3" fill="none"/>
+            <path d="M226 160l24-12 24 12 10 28-14 4v74h-40v-74l-14-4z" fill="#9FC3C7"/>
+            <g fill="#7FA9AE"><circle cx="242" cy="196" r="3"/><circle cx="258" cy="214" r="3"/><circle cx="244" cy="232" r="3"/><circle cx="260" cy="248" r="3"/></g>
+            <!-- cama hospitalar -->
+            <rect x="268" y="226" width="10" height="150" fill="#8E9A93"/>
+            <rect x="542" y="260" width="10" height="116" fill="#8E9A93"/>
+            <path d="M282 300l40-62h20l-28 62z" fill="#F7F8F4" stroke="#D3D9CE" stroke-width="2"/>
+            <rect x="300" y="236" width="74" height="34" rx="14" transform="rotate(-30 337 253)" fill="#FFFFFF" stroke="#D3D9CE" stroke-width="2"/>
+            <rect x="278" y="298" width="270" height="36" rx="6" fill="#F7F8F4" stroke="#D3D9CE" stroke-width="2"/>
+            <rect x="278" y="330" width="270" height="12" rx="3" fill="#7EA4B8"/>
+            <path d="M372 296h176v28c0 6-4 10-10 10H372z" fill="#CFE0DA"/>
+            <path d="M372 306h176" stroke="#B7CEC5" stroke-width="3"/>
+            <rect x="380" y="276" width="160" height="6" rx="3" fill="#B4BEB8"/>
+            <rect x="380" y="276" width="6" height="24" fill="#B4BEB8"/><rect x="534" y="276" width="6" height="24" fill="#B4BEB8"/>
+            <rect x="282" y="342" width="262" height="14" rx="4" fill="#A3AEA8"/>
+            <circle cx="296" cy="386" r="10" fill="#4C5852"/><circle cx="528" cy="386" r="10" fill="#4C5852"/>
+            <rect x="290" y="356" width="6" height="22" fill="#8E9A93"/><rect x="524" y="356" width="6" height="22" fill="#8E9A93"/>
+            <!-- mesa de cabeceira + kit -->
+            <rect x="572" y="300" width="74" height="96" rx="5" fill="#F4F6F2" stroke="#C9D0C6" stroke-width="2"/>
+            <rect x="572" y="336" width="74" height="2" fill="#C9D0C6"/>
+            <rect x="582" y="280" width="54" height="20" rx="4" fill="#EBDDBF"/>
+            <rect x="588" y="266" width="9" height="16" rx="3" fill="#B48A3C"/><rect x="601" y="270" width="9" height="12" rx="3" fill="#8FA68F"/>
+            <!-- ar-condicionado -->
+            <rect x="586" y="40" width="156" height="46" rx="10" fill="#FBFCFA" stroke="#C9D0C6" stroke-width="2"/>
+            <path d="M600 74h128M600 79h128" stroke="#C9D0C6" stroke-width="2"/>
+            <!-- carro de rouparia -->
+            <rect x="664" y="296" width="110" height="84" rx="8" fill="#8E9A93"/>
+            <rect x="672" y="282" width="94" height="22" rx="8" fill="#FFFFFF" stroke="#D3D9CE" stroke-width="2"/>
+            <rect x="680" y="270" width="78" height="16" rx="6" fill="#CFE0DA"/>
+            <circle cx="680" cy="388" r="9" fill="#4C5852"/><circle cx="758" cy="388" r="9" fill="#4C5852"/>
+            <path d="M664 312h110" stroke="#7B8780" stroke-width="2"/>
+          </g>
+        </svg>
+        <div id="hotspots"></div>
+        <span class="room-tag" id="roomTag" aria-hidden="true"></span>
+        <span class="room-hint" id="roomHint">Toque nos pontos para ver cada item</span>
+      </div>
+      <div class="rail" id="rail" role="group" aria-label="Itens deste quarto"></div>
+      <div class="spot-card" id="spotCard" aria-live="polite" style="margin-top:14px"></div>
+    </div>
+    <div class="hero-cta">
+      <a href="#orcamento" class="btn btn-primary">Pedir orçamento</a>
+      <a href="#calculadora" class="btn btn-ghost">Calcular meu enxoval</a>
+    </div>
+  </div>
+</section>
+
+<!-- marcas -->
+<section class="brands" aria-label="Marcas parceiras">
+  <p>Distribuidor das marcas que você já conhece</p>
+  <div class="marquee" aria-hidden="true">
+    <span>Döhler PRO</span><span>Hedrons</span><span>Castor</span><span>Estoril</span><span>Panther</span><span>Mamute</span><span>Bazart</span><span>FrioPeças</span><span>SND</span><span>SAMCO</span>
+    <span>Döhler PRO</span><span>Hedrons</span><span>Castor</span><span>Estoril</span><span>Panther</span><span>Mamute</span><span>Bazart</span><span>FrioPeças</span><span>SND</span><span>SAMCO</span>
+  </div>
+  <p class="sr" style="position:absolute;left:-9999px">Döhler PRO, Hedrons, Castor, Estoril, Panther, Mamute, Bazart, FrioPeças, SND e SAMCO.</p>
+</section>
+
+<!-- segmentos -->
+<section class="sec" id="segmentos">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Cada operação tem um jeito de gastar enxoval</h2>
+      <p class="lead">Um resort troca peças por estética. Um hospital, por norma e por volume de lavagem. Escolha o seu caso.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Segmentos" id="segTabs"></div>
+    <div class="seg-panel" role="tabpanel" id="segPanel"></div>
+  </div>
+</section>
+
+<!-- calculadora -->
+<section class="sec calc" id="calculadora">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Quanto enxoval você precisa?</h2>
+      <p class="lead">Informe o tamanho da operação e veja uma estimativa de peças. Um consultor revisa a conta antes da proposta.</p>
+    </div>
+    <div class="calc-grid">
+      <form class="calc-form" id="calcForm" onsubmit="return false">
+        <div class="field">
+          <span class="lbl">Tipo de estabelecimento</span>
+          <div class="pills" id="cTipo">
+            <input type="radio" name="tipo" id="t1" value="hotel" checked><label for="t1">Hotel</label>
+            <input type="radio" name="tipo" id="t2" value="pousada"><label for="t2">Pousada</label>
+            <input type="radio" name="tipo" id="t3" value="motel"><label for="t3">Motel</label>
+            <input type="radio" name="tipo" id="t4" value="hospital"><label for="t4">Hospital</label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="cQtd" id="cQtdLbl">Número de quartos</label>
+          <div class="stepper">
+            <button type="button" data-step="-5" aria-label="Diminuir 5">−</button>
+            <input type="number" id="cQtd" value="60" min="1" max="1000" inputmode="numeric">
+            <button type="button" data-step="5" aria-label="Aumentar 5">+</button>
+          </div>
+          <input type="range" id="cRange" min="5" max="400" value="60" aria-label="Ajustar número de quartos">
+        </div>
+        <div class="field" id="cCamaField">
+          <span class="lbl">Cama predominante</span>
+          <div class="pills">
+            <input type="radio" name="cama" id="k1" value="casal" checked><label for="k1">Casal / queen</label>
+            <input type="radio" name="cama" id="k2" value="duas"><label for="k2">Duas de solteiro</label>
+            <input type="radio" name="cama" id="k3" value="solteiro"><label for="k3">Uma de solteiro</label>
+          </div>
+        </div>
+        <div class="field">
+          <span class="lbl">Giro de enxoval</span>
+          <div class="pills">
+            <input type="radio" name="giro" id="g3" value="3"><label for="g3">3 jogos</label>
+            <input type="radio" name="giro" id="g4" value="4" checked><label for="g4">4 jogos</label>
+            <input type="radio" name="giro" id="g5" value="5"><label for="g5">5 jogos</label>
+          </div>
+          <p class="hint" id="giroHint"></p>
+          <div class="giro-vis" id="giroVis" aria-hidden="true"></div>
+        </div>
+      </form>
+      <div class="calc-out" aria-live="polite">
+        <div>
+          <h3 id="outTitle">Estimativa para 60 quartos</h3>
+          <p class="sub" id="outSub"></p>
+        </div>
+        <ul class="out-list" id="outList"></ul>
+        <div class="out-total"><span>Total de peças</span><b id="outTotal">0</b></div>
+        <button class="btn btn-brass" id="calcAdd" type="button">Adicionar estimativa à lista</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- catálogo -->
+<section class="sec" id="catalogo">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Catálogo com ficha técnica</h2>
+      <p class="lead">Sem baixar PDF. Filtre, compare a especificação e monte sua lista de orçamento item por item.</p>
+    </div>
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input type="search" id="q" placeholder="Buscar: percal, toalha, fechadura…" aria-label="Buscar produto">
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filtrar categoria"></div>
+    <div class="products" id="products"></div>
+    <div class="more"><button class="btn btn-ghost" id="moreBtn" hidden></button></div>
+  </div>
+</section>
+
+<!-- cases -->
+<section class="sec cases" id="cases">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Quartos que já montamos</h2>
+      <p class="lead">Projetos de abertura, retrofit e reposição contínua em MS e MT. Exemplos ilustrativos.</p>
+    </div>
+    <div class="case-facts">
+    <div class="fact"><b data-to="18">18</b><span>anos equipando a hotelaria</span></div>
+    <div class="fact"><b data-to="94" data-prefix="+">+94</b><span>hotéis, pousadas e motéis</span></div>
+    <div class="fact"><b data-to="87" data-prefix="+">+87</b><span>hospitais, clínicas e spas</span></div>
+    <div class="fact"><b data-to="48" data-suffix="h">48h</b><span>prazo médio de reposição</span></div>
+  </div>
+    <div class="case-track">
+      <article class="case">
+        <div class="case-art" style="background:linear-gradient(180deg,#8FB3A6 0 55%,#4E7A64 55% 100%)">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><path d="M0 100c50-20 90 10 150-6s100-20 150 0v76H0z" fill="#2F5D4A"/><path d="M0 130c60-10 120 14 180 0s90-6 120 4v36H0z" fill="#9CC7D0"/><circle cx="230" cy="40" r="16" fill="#EBDDBF"/></svg>
+        </div>
+        <div class="case-body">
+          <span class="where">Resort de ecoturismo · Bonito, MS</span>
+          <h3>84 apartamentos com enxoval trocado em 30 dias</h3>
+          <blockquote>“Fizemos a troca em plena temporada sem fechar nenhum apartamento.”</blockquote>
+          <cite>Gerente de hospedagem</cite>
+          <div class="case-stats"><div><b>84</b><span>apartamentos</span></div><div><b>30</b><span>dias</span></div><div><b>6</b><span>marcas</span></div></div>
+        </div>
+      </article>
+      <article class="case">
+        <div class="case-art" style="background:#DCE8EA">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><rect x="70" y="40" width="160" height="130" fill="#F7F8F4"/><g fill="#9FC3C7"><rect x="88" y="58" width="24" height="20"/><rect x="138" y="58" width="24" height="20"/><rect x="188" y="58" width="24" height="20"/><rect x="88" y="98" width="24" height="20"/><rect x="138" y="98" width="24" height="20"/><rect x="188" y="98" width="24" height="20"/></g><rect x="140" y="140" width="20" height="30" fill="#7EA4B8"/><path d="M146 20h8v8h8v8h-8v8h-8v-8h-8v-8h8z" fill="#B48A3C"/></svg>
+        </div>
+        <div class="case-body">
+          <span class="where">Hospital regional · Dourados, MS</span>
+          <h3>210 leitos com reposição mensal programada</h3>
+          <blockquote>“A rouparia parou de faltar. Recebemos antes de precisar pedir.”</blockquote>
+          <cite>Coordenação de hotelaria hospitalar</cite>
+          <div class="case-stats"><div><b>210</b><span>leitos</span></div><div><b>12</b><span>entregas/ano</span></div><div><b>0</b><span>rupturas</span></div></div>
+        </div>
+      </article>
+      <article class="case">
+        <div class="case-art" style="background:linear-gradient(180deg,#E8C98A,#C98F5A)">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><g fill="#143A2E"><rect x="40" y="60" width="40" height="110"/><rect x="90" y="30" width="56" height="140"/><rect x="156" y="80" width="40" height="90"/><rect x="206" y="50" width="54" height="120"/></g><g fill="#EBDDBF"><rect x="100" y="44" width="8" height="8"/><rect x="118" y="44" width="8" height="8"/><rect x="100" y="64" width="8" height="8"/><rect x="128" y="84" width="8" height="8"/><rect x="216" y="66" width="8" height="8"/><rect x="236" y="86" width="8" height="8"/></g></svg>
+        </div>
+        <div class="case-body">
+          <span class="where">Hotel executivo · Cuiabá, MT</span>
+          <h3>120 quartos com colchões, fechaduras RFID e amenities</h3>
+          <blockquote>“Um só pedido para o retrofit inteiro. Simplificou a nossa compra.”</blockquote>
+          <cite>Diretor de operações</cite>
+          <div class="case-stats"><div><b>120</b><span>quartos</span></div><div><b>1</b><span>fornecedor</span></div><div><b>45</b><span>dias</span></div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- processo -->
+<section class="sec" id="processo">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Do primeiro contato à reposição</h2>
+    </div>
+    <ol class="steps">
+      <li><div><b>Visita técnica</b><p>Um consultor conhece seus quartos, camas e lavanderia.</p></div></li>
+      <li><div><b>Proposta e amostras</b><p>Você toca o tecido antes de fechar. Proposta em até 48 horas.</p></div></li>
+      <li><div><b>Entrega e instalação</b><p>Frota própria em MS e MT, com instalação de fechaduras e equipamentos.</p></div></li>
+      <li><div><b>Reposição programada</b><p>Acompanhamos o desgaste e repomos antes de faltar.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- área -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap area">
+    <div class="sec-head" style="margin:0">
+      <h2>Onde atendemos</h2>
+      <p class="lead">Entrega própria nas principais cidades e rotas turísticas dos dois estados.</p>
+    </div>
+    <div class="cities">
+      <div><h4>Mato Grosso do Sul</h4><ul><li>Campo Grande</li><li>Dourados</li><li>Bonito</li><li>Três Lagoas</li><li>Corumbá</li><li>Ponta Porã</li></ul></div>
+      <div><h4>Mato Grosso</h4><ul><li>Cuiabá</li><li>Várzea Grande</li><li>Rondonópolis</li><li>Sinop</li><li>Chapada dos Guimarães</li><li>Nobres</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- orçamento -->
+<section class="sec quote" id="orcamento">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Receba sua proposta</h2>
+      <p class="lead">Conte sobre o seu empreendimento. Um consultor responde em até um dia útil pelo WhatsApp.</p>
+    </div>
+    <div class="quote-grid">
+      <form class="qform" id="qform" novalidate>
+        <div class="two">
+          <div class="f"><label for="fNome">Seu nome</label><input id="fNome" autocomplete="name" required><p class="err">Informe seu nome.</p></div>
+          <div class="f"><label for="fEmp">Empresa</label><input id="fEmp" autocomplete="organization" required><p class="err">Informe o nome da empresa.</p></div>
+        </div>
+        <div class="two">
+          <div class="f"><label for="fTel">WhatsApp</label><input id="fTel" type="tel" inputmode="tel" autocomplete="tel" placeholder="(67) 9 0000-0000" required><p class="err">Informe um WhatsApp com DDD.</p></div>
+          <div class="f"><label for="fCid">Cidade</label><input id="fCid" autocomplete="address-level2" required><p class="err">Informe a cidade.</p></div>
+        </div>
+        <div class="two keep">
+          <div class="f"><label for="fTipo">Tipo</label>
+            <select id="fTipo"><option>Hotel</option><option>Resort</option><option>Pousada</option><option>Motel</option><option>Hospital ou clínica</option><option>Outro</option></select></div>
+          <div class="f"><label for="fUn">Quartos ou leitos</label><input id="fUn" type="number" inputmode="numeric" min="1" placeholder="Ex.: 60"></div>
+        </div>
+        <div class="f"><label for="fMsg">Mensagem (opcional)</label><textarea id="fMsg" placeholder="Ex.: abertura em março, precisamos do enxoval completo e fechaduras."></textarea></div>
+        <p class="lgpd">Usamos seus dados só para responder a este pedido, conforme a LGPD.</p>
+        <button class="btn btn-primary" type="submit">Enviar pedido de orçamento</button>
+      </form>
+      <aside class="qsum">
+        <h3>Sua lista</h3>
+        <ul class="qitems" data-list></ul>
+        <button class="link-btn" data-open-list style="margin-top:8px">Editar lista completa</button>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="#inicio" class="logo"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E4D3D"/><path d="M9 27c4-1 7-4 11-4s7 3 11 4M9 21c4-1 7-4 11-4s7 3 11 4M9 15c4-1 7-4 11-4s7 3 11 4" fill="none" stroke="#EBDDBF" stroke-width="2" stroke-linecap="round"/></svg><span class="logo-text">Solução Enxovais<small>Hotelaria e saúde · MS e MT</small></span></a>
+      <p style="margin-top:14px;max-width:34ch">Enxoval profissional, colchões, amenities e equipamentos para quem recebe pessoas.</p>
+    </div>
+    <div><h4>Contato</h4><ul><li>(67) 9 0000-0000</li><li>contato@exemplo.com.br</li><li>Campo Grande, MS</li></ul></div>
+    <div><h4>Navegar</h4><ul><li><a href="#segmentos">Segmentos</a></li><li><a href="#calculadora">Calculadora</a></li><li><a href="#catalogo">Catálogo</a></li><li><a href="#cases">Cases</a></li></ul></div>
+    <div><h4>Redes</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">LinkedIn</a></li></ul></div>
+    <p class="legal">Protótipo de demonstração. CNPJ 00.000.000/0001-00 (fictício) · Política de privacidade</p>
+  </div>
+</footer>
+
+<!-- barra fixa mobile -->
+<div class="dock">
+  <button class="btn btn-primary" data-open-list>Lista <span class="count" data-count>0</span></button>
+  <button class="btn btn-wa" data-wa><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3c-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>WhatsApp</button>
+</div>
+<button class="wa-float" data-wa aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3c-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg></button>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Lista de orçamento" aria-hidden="true">
+  <div class="drawer-head"><h3>Lista de orçamento</h3><button class="x" data-close aria-label="Fechar">×</button></div>
+  <div class="drawer-body"><ul class="qitems" data-list></ul></div>
+  <div class="drawer-foot"><a href="#orcamento" class="btn btn-primary" data-close>Continuar para o orçamento</a></div>
+</aside>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <h3 id="mTitle">Pedido enviado</h3>
+  <p id="mText"></p>
+  <div class="wa-preview" id="mWa"></div>
+  <button class="btn btn-primary" data-close>Fechar</button>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ---------- dados ---------- */
+const PRODUCTS = [
+  {id:'lencol-percal', cat:'Cama', nome:'Lençol percal 200 fios', marca:'Döhler PRO', spec:'100% algodão · 200 fios · casal e solteiro', unit:'peça', vis:'fabric', c:'#FFFFFF', tags:'hotel pousada motel'},
+  {id:'fronha-percal', cat:'Cama', nome:'Fronha percal 200 fios', marca:'Döhler PRO', spec:'100% algodão · 50 × 70 cm', unit:'peça', vis:'fabric', c:'#F7F8F4'},
+  {id:'peseira', cat:'Cama', nome:'Peseira jacquard', marca:'Döhler PRO', spec:'Verde-floresta com friso dourado', unit:'peça', vis:'fabric', c:'#1E4D3D', band:'#B48A3C'},
+  {id:'edredom', cat:'Cama', nome:'Edredom hotel 200 g/m²', marca:'Hedrons', spec:'Fibra siliconizada · lavável em máquina', unit:'peça', vis:'fabric', c:'#FFFFFF'},
+  {id:'travesseiro', cat:'Cama', nome:'Travesseiro fibra premium', marca:'Hedrons', spec:'50 × 70 cm · antiácaro', unit:'peça', vis:'fabric', c:'#F1F3EE'},
+  {id:'protetor', cat:'Cama', nome:'Protetor impermeável', marca:'Hedrons', spec:'Respirável · elástico nas bordas', unit:'peça', vis:'fabric', c:'#E8EEF0'},
+  {id:'toalha-banho', cat:'Banho', nome:'Toalha de banho 500 g/m²', marca:'Döhler PRO', spec:'Felpa dupla · 70 × 140 cm', unit:'peça', vis:'terry', c:'#FFFFFF', band:'#B48A3C'},
+  {id:'toalha-rosto', cat:'Banho', nome:'Toalha de rosto 500 g/m²', marca:'Döhler PRO', spec:'Felpa dupla · 48 × 80 cm', unit:'peça', vis:'terry', c:'#FFFFFF', band:'#B48A3C'},
+  {id:'piso', cat:'Banho', nome:'Toalha de piso', marca:'Döhler PRO', spec:'Antiderrapante · 48 × 70 cm', unit:'peça', vis:'terry', c:'#EDEFE8'},
+  {id:'colchao', cat:'Colchões', nome:'Colchão molas ensacadas linha hotel', marca:'Castor', spec:'Queen · altura 28 cm · tratamento antiácaro', unit:'un.', vis:'obj', icon:'bed'},
+  {id:'amenities', cat:'Amenities', nome:'Kit amenities 30 ml', marca:'Estoril', spec:'Shampoo, condicionador, sabonete e loção', unit:'kit', vis:'obj', icon:'bottle'},
+  {id:'secador', cat:'Amenities', nome:'Secador de parede anti-furto', marca:'Panther', spec:'1.200 W · suporte com trava', unit:'un.', vis:'obj', icon:'dryer'},
+  {id:'fechadura', cat:'Equipamentos', nome:'Fechadura eletrônica RFID', marca:'SAMCO', spec:'Cartão por aproximação · registro de acessos', unit:'un.', vis:'obj', icon:'lock'},
+  {id:'cofre', cat:'Equipamentos', nome:'Cofre digital para quarto', marca:'SAMCO', spec:'Senha de 4 a 6 dígitos · cabe notebook 15"', unit:'un.', vis:'obj', icon:'safe'},
+  {id:'frigobar', cat:'Equipamentos', nome:'Frigobar silencioso 80 L', marca:'FrioPeças', spec:'Baixo ruído · porta reversível', unit:'un.', vis:'obj', icon:'fridge'},
+  {id:'ar', cat:'Equipamentos', nome:'Ar-condicionado split inverter', marca:'FrioPeças', spec:'12.000 BTU · instalação inclusa', unit:'un.', vis:'obj', icon:'ac'},
+  {id:'lavadora', cat:'Lavanderia', nome:'Lavadora extratora 30 kg', marca:'Mamute', spec:'Industrial · painel programável', unit:'un.', vis:'obj', icon:'washer'},
+  {id:'quadro', cat:'Decoração', nome:'Quadro decorativo com moldura', marca:'Bazart', spec:'Coleções sob medida para o projeto', unit:'un.', vis:'obj', icon:'frame'},
+  {id:'lencol-hosp', cat:'Hospitalar', nome:'Lençol hospitalar com elástico', marca:'Linha Saúde', spec:'Misto algodão/poliéster · alta resistência a lavagem', unit:'peça', vis:'fabric', c:'#E8F1F2'},
+  {id:'camisola', cat:'Hospitalar', nome:'Camisola hospitalar', marca:'Linha Saúde', spec:'Abertura traseira · tamanhos P a GG', unit:'peça', vis:'fabric', c:'#9FC3C7'},
+  {id:'manta', cat:'Hospitalar', nome:'Cobertor hospitalar', marca:'Linha Saúde', spec:'Antichama · 150 × 220 cm', unit:'peça', vis:'fabric', c:'#CFE0DA'},
+  {id:'colchao-hosp', cat:'Hospitalar', nome:'Colchão hospitalar com capa impermeável', marca:'Linha Saúde', spec:'D33 · capa em vinil lavável', unit:'un.', vis:'obj', icon:'bed'}
+];
+const ICONS = {
+  bed:'<path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7h5v3M3 18v2M21 18v2"/>',
+  bottle:'<path d="M9 3h6v3l2 3v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9l2-3z"/><path d="M7 12h10"/>',
+  dryer:'<path d="M4 9a5 5 0 0 1 5-5h8v8H9a5 5 0 0 1-5-3z"/><path d="M11 12l-1 8h4l1-8"/>',
+  lock:'<rect x="7" y="3" width="10" height="18" rx="2"/><circle cx="12" cy="9" r="2"/><path d="M10 15h4"/>',
+  safe:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M12 9v1M7 20v1M17 20v1"/>',
+  fridge:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M5 10h14M9 6v2M9 13v3"/>',
+  ac:'<rect x="2" y="5" width="20" height="9" rx="2"/><path d="M6 11h12M8 17c0 1-1 2-1 3M12 17v3M16 17c0 1 1 2 1 3"/>',
+  washer:'<rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="13" r="4.5"/><path d="M7 6h2M15 6h2"/>',
+  frame:'<rect x="3" y="4" width="18" height="16" rx="1"/><path d="M6 17l4-5 3 3 2-2 3 4"/><circle cx="15" cy="8.5" r="1.5"/>'
+};
+
+const SPOTS = {
+  hotel:[
+    {x:41.8,y:49.5,t:'Lençóis e fronhas',b:'Döhler PRO',d:'Percal 200 fios que aguenta centenas de ciclos de lavagem industrial sem perder o toque.',s:['100% algodão','200 fios','Branco ou cores'],p:'lencol-percal'},
+    {x:49,y:61.8,t:'Edredom e peseira',b:'Hedrons · Döhler PRO',d:'Edredom leve e lavável, com peseira na cor do seu projeto para dar acabamento ao quarto.',s:['200 g/m²','Lavável','Cores sob medida'],p:'edredom'},
+    {x:66,y:68,t:'Colchão linha hotel',b:'Castor',d:'Molas ensacadas com tratamento antiácaro. Menos reclamação de dor nas costas na avaliação do hóspede.',s:['Queen ou king','28 cm','Antiácaro'],p:'colchao'},
+    {x:50.6,y:19.6,t:'Quadros decorativos',b:'Bazart',d:'Coleções pensadas para o tema do hotel, com moldura e fixação anti-furto.',s:['Sob medida','Fixação segura'],p:'quadro'},
+    {x:83,y:11.2,t:'Ar-condicionado',b:'FrioPeças',d:'Split inverter silencioso, com instalação e manutenção preventiva.',s:['12.000 BTU','Inverter','Instalação inclusa'],p:'ar'},
+    {x:75.5,y:63.5,t:'Frigobar silencioso',b:'FrioPeças',d:'Baixo ruído para não atrapalhar o sono do hóspede.',s:['80 L','Porta reversível'],p:'frigobar'},
+    {x:87.2,y:47.5,t:'Fechadura RFID',b:'SAMCO',d:'Cartão por aproximação e registro de cada acesso ao quarto.',s:['Cartão RFID','Relatório de acessos'],p:'fechadura'},
+    {x:21.6,y:38.6,t:'Secador anti-furto',b:'Panther',d:'Fixo na parede, com suporte travado. Some o problema do secador que vai embora na mala.',s:['1.200 W','Suporte com trava'],p:'secador'},
+    {x:9.6,y:43,t:'Amenities',b:'Estoril',d:'Linha premium de shampoo, condicionador, sabonete e loção com a fragrância da casa.',s:['30 ml','Personalizável'],p:'amenities'},
+    {x:13.8,y:61,t:'Toalhas de banho',b:'Döhler PRO',d:'Felpa dupla de 500 g/m² com barra na cor do hotel.',s:['500 g/m²','Felpa dupla'],p:'toalha-banho'}
+  ],
+  hosp:[
+    {x:40,y:52.5,t:'Lençol hospitalar',b:'Linha Saúde',d:'Tecido misto de alta resistência, com elástico que não solta na movimentação do paciente.',s:['Algodão/poliéster','Com elástico'],p:'lencol-hosp'},
+    {x:63,y:55,t:'Cobertor hospitalar',b:'Linha Saúde',d:'Antichama e próprio para lavagem com desinfecção térmica.',s:['Antichama','150 × 220 cm'],p:'manta'},
+    {x:50,y:60.5,t:'Colchão hospitalar',b:'Linha Saúde',d:'Capa impermeável em vinil, fácil de higienizar entre um paciente e outro.',s:['D33','Capa lavável'],p:'colchao-hosp'},
+    {x:31.2,y:36,t:'Camisola hospitalar',b:'Linha Saúde',d:'Abertura traseira e tecido confortável para internações longas.',s:['P a GG','Várias cores'],p:'camisola'},
+    {x:14,y:34,t:'Cortina divisória',b:'Solução Enxovais',d:'Cortina de privacidade com tratamento antimicrobiano e trilho completo.',s:['Antimicrobiana','Sob medida']},
+    {x:83,y:11.2,t:'Ar-condicionado',b:'FrioPeças',d:'Climatização silenciosa com manutenção preventiva programada.',s:['Inverter','Manutenção'],p:'ar'},
+    {x:76,y:49,t:'Kit higiene do paciente',b:'Estoril',d:'Kit individual de higiene para admissão do paciente.',s:['Individual','Personalizável'],p:'amenities'},
+    {x:90,y:51,t:'Rouparia e lavanderia',b:'Mamute',d:'Lavadoras extratoras industriais para manter o giro de roupa sem terceirizar.',s:['30 kg','Programável'],p:'lavadora'}
+  ]
+};
+
+const SEGMENTS = [
+  {k:'hotel', n:'Hotéis e resorts', h:'Quarto bonito na foto e no décimo check-in', pains:[
+    ['Enxoval que amarela ou perde o toque','Percal e felpa feitos para lavagem industrial, com ficha técnica de durabilidade.'],
+    ['Avaliação baixa por cama desconfortável','Colchões Castor linha hotel e travesseiros Hedrons.'],
+    ['Itens que somem do quarto','Secadores Panther anti-furto e fechaduras SAMCO com registro de acesso.']],
+    kit:['Enxoval completo com peseira na cor do hotel','Colchão, travesseiro e protetor','Amenities com fragrância da casa','Fechadura RFID e cofre']},
+  {k:'hosp', n:'Hospitais e clínicas', h:'Rouparia que acompanha o ritmo dos leitos', pains:[
+    ['Peças que não aguentam desinfecção térmica','Tecidos mistos de alta resistência e cobertores antichama.'],
+    ['Falta de roupa nos picos de internação','Reposição programada a partir do consumo do mês.'],
+    ['Lavanderia terceirizada cara','Lavadoras extratoras Mamute para lavar dentro de casa.']],
+    kit:['Lençóis, fronhas e camisolas','Colchão com capa impermeável','Cortinas divisórias','Kit de higiene do paciente']},
+  {k:'motel', n:'Motéis', h:'Giro alto, estética caprichada', pains:[
+    ['Muitas trocas por dia','Giro de 5 jogos dimensionado para o seu número de suítes.'],
+    ['Enxoval branco que não combina com o tema','Cores e peseiras sob medida para cada suíte.'],
+    ['Equipamento que quebra com o uso','Frigobar, ar e secador de linha profissional, com assistência.']],
+    kit:['Enxoval colorido com giro 5','Edredons e almofadas temáticas','Frigobar e ar silenciosos','Amenities personalizados']},
+  {k:'pousada', n:'Pousadas', h:'Cara de hotel boutique, conta de pousada', pains:[
+    ['Orçamento apertado','Kits por quarto com preço fechado e pagamento facilitado.'],
+    ['Pouca gente para comprar e repor','Um consultor cuida de tudo, do enxoval à fechadura.'],
+    ['Decoração sem identidade','Quadros Bazart e peseiras no estilo da região.']],
+    kit:['Kit quarto completo','Toalhas com barra personalizada','Quadros decorativos','Amenities da casa']}
+];
+
+/* ---------- utilidades ---------- */
+const $ = s=>document.querySelector(s);
+const $$ = s=>[...document.querySelectorAll(s)];
+const fmt = n=>n.toLocaleString('pt-BR');
+const toast = msg=>{const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2200)};
+
+/* ---------- lista de orçamento ---------- */
+let list = [];
+function addItem(item, qty, silent){
+  const ex = list.find(i=>i.id===item.id);
+  if(ex){ ex.qty += qty; } else { list.push({...item, qty}); }
+  renderList();
+  if(!silent) toast(`${item.nome} adicionado à lista`);
+  $$('[data-count]').forEach(c=>{c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')});
+}
+function setQty(id, d){
+  const it = list.find(i=>i.id===id); if(!it) return;
+  const step = it.qty>=50 ? 10 : 1;
+  it.qty += d*step;
+  if(it.qty<=0) list = list.filter(i=>i.id!==id);
+  renderList();
+}
+function renderList(){
+  const n = list.length;
+  $$('[data-count]').forEach(c=>c.textContent=n);
+  const html = n ? list.map(i=>`<li><span class="n">${i.nome}</span>
+      <div class="qty"><button aria-label="Diminuir ${i.nome}" data-q="${i.id}" data-d="-1">−</button><span>${fmt(i.qty)}</span><button aria-label="Aumentar ${i.nome}" data-q="${i.id}" data-d="1">+</button></div>
+      <span class="m">${i.marca}${i.unit?' · '+i.unit:''}</span></li>`).join('')
+    : `<li class="qempty" style="display:block">Sua lista está vazia. Comece pelo quarto, pela calculadora ou pelo catálogo.<div class="qempty-actions"><a href="#inicio" data-close>Montar pelo quarto</a><a href="#calculadora" data-close>Calcular enxoval</a></div></li>`;
+  $$('[data-list]').forEach(u=>u.innerHTML=html);
+  $$('[data-act]').forEach(a=>{const it=list.find(i=>i.id===a.dataset.act);
+    a.innerHTML = it ? `<div class="qty"><button aria-label="Diminuir" data-q="${it.id}" data-d="-1">−</button><span>${fmt(it.qty)}</span><button aria-label="Aumentar" data-q="${it.id}" data-d="1">+</button></div>`
+                     : `<button class="add-btn" data-add="${a.dataset.act}">Adicionar</button>`});
+  if(typeof renderCard==='function' && document.getElementById('rail').children.length) renderCard();
+}
+document.addEventListener('click',e=>{
+  const q=e.target.closest('[data-q]'); if(q){setQty(q.dataset.q,+q.dataset.d);}
+});
+
+/* ---------- quarto interativo ---------- */
+let scene='hotel', spotIdx=0;
+function spotsWithP(){return SPOTS[scene].filter(s=>s.p)}
+function inList(id){return list.some(i=>i.id===id)}
+function renderSpots(){
+  $('#hotspots').innerHTML = SPOTS[scene].map((s,i)=>`<button class="hs" style="left:${s.x}%;top:${s.y}%" aria-pressed="${i===spotIdx}" aria-label="${s.t}" data-spot="${i}"></button>`).join('');
+  $('#rail').innerHTML = SPOTS[scene].map((s,i)=>`<button aria-pressed="${i===spotIdx}" data-spot="${i}"><svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12.5l5 5L20 6.5"/></svg>${s.t}</button>`).join('');
+  renderCard();
+}
+function renderCard(){
+  const sp=SPOTS[scene], s=sp[spotIdx], withP=spotsWithP();
+  const got=withP.filter(x=>inList(x.p)).length, pct=Math.round(got/withP.length*100);
+  $$('#hotspots .hs').forEach((b,i)=>{b.setAttribute('aria-pressed',i===spotIdx);b.classList.toggle('in',!!sp[i].p&&inList(sp[i].p))});
+  $$('#rail button').forEach((b,i)=>{b.setAttribute('aria-pressed',i===spotIdx);b.classList.toggle('in',!!sp[i].p&&inList(sp[i].p))});
+  const rail=$('#rail'), sel=rail.children[spotIdx]; if(sel&&renderCard._ready&&rail.scrollWidth>rail.clientWidth) rail.scrollTo({left:sel.offsetLeft-rail.offsetLeft-rail.clientWidth/2+sel.offsetWidth/2,behavior:'smooth'});
+  renderCard._ready=true;
+  const tag=$('#roomTag'); tag.textContent=s.t; tag.style.left=s.x+'%'; tag.style.top=s.y+'%'; tag.classList.toggle('left',s.x>55);
+  const has=s.p&&inList(s.p);
+  const main = s.p ? (has ? `<button class="btn btn-ghost sm" data-openlist>Ver na lista</button>` : `<button class="btn btn-primary sm" data-addspot="${s.p}">Adicionar à lista</button>`)
+                   : `<a class="btn btn-ghost sm" href="#orcamento">Pedir medida</a>`;
+  const all = got<withP.length ? `<button class="link-btn" data-addall>Adicionar o quarto completo</button>` : `<span class="prog-txt">Quarto completo na lista</span>`;
+  $('#spotCard').innerHTML = `
+    <div class="card-top"><span class="brand">${s.b}</span><span class="prog-txt">${got} de ${withP.length} itens na lista</span></div>
+    <div class="prog" aria-hidden="true"><i style="width:${pct}%"></i></div>
+    <h3>${s.t}</h3>
+    <p style="color:var(--muted)">${s.d}</p>
+    <ul>${s.s.map(x=>`<li>${x}</li>`).join('')}</ul>
+    <div class="row">
+      ${main}
+      ${all}
+      <div class="spot-nav">
+        <button aria-label="Item anterior" data-nav="-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button aria-label="Próximo item" data-nav="1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>`;
+}
+function pickSpot(i){spotIdx=i;renderCard();$('#roomHint').style.display='none'}
+$('#rail').addEventListener('click',e=>{const b=e.target.closest('[data-spot]');if(b)pickSpot(+b.dataset.spot)});
+$('#room').addEventListener('click',e=>{
+  const b=e.target.closest('[data-spot]'); if(!b) return;
+  pickSpot(+b.dataset.spot);
+});
+$('#spotCard').addEventListener('click',e=>{
+  const n=e.target.closest('[data-nav]');
+  if(n){const all=SPOTS[scene].length;pickSpot((spotIdx+ +n.dataset.nav+all)%all);return}
+  const a=e.target.closest('[data-addspot]');
+  if(a){addItem(PRODUCTS.find(p=>p.id===a.dataset.addspot),10);return}
+  if(e.target.closest('[data-addall]')){
+    const add=spotsWithP().filter(x=>!inList(x.p));
+    add.forEach(x=>addItem(PRODUCTS.find(p=>p.id===x.p),10,true));
+    toast(`Quarto completo na lista: ${add.length} itens adicionados`);return}
+  if(e.target.closest('[data-openlist]')) openList();
+});
+$$('[data-scene]').forEach(b=>b.addEventListener('click',()=>{
+  scene=b.dataset.scene; spotIdx=0;
+  $$('[data-scene]').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  $('#scene-hotel').style.display=scene==='hotel'?'':'none';
+  $('#scene-hosp').style.display=scene==='hosp'?'':'none';
+  renderSpots();
+}));
+
+/* ---------- segmentos ---------- */
+const check='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg>';
+function renderSeg(k){
+  $('#segTabs').innerHTML = SEGMENTS.map(s=>`<button role="tab" aria-selected="${s.k===k}" data-seg="${s.k}">${s.n}</button>`).join('');
+  const s=SEGMENTS.find(x=>x.k===k);
+  $('#segPanel').innerHTML = `
+    <div><h3>${s.h}</h3>
+      <ul class="pains" style="margin-top:22px">${s.pains.map(p=>`<li>${check}<div><b>${p[0]}</b><small>${p[1]}</small></div></li>`).join('')}</ul></div>
+    <div class="seg-kit"><h4>O que costuma entrar no pedido</h4><ul>${s.kit.map(i=>`<li>${i}</li>`).join('')}</ul>
+      <a href="#orcamento" class="btn btn-primary" style="width:100%">Pedir proposta para ${s.n.toLowerCase()}</a></div>`;
+}
+$('#segTabs').addEventListener('click',e=>{const b=e.target.closest('[data-seg]');if(b)renderSeg(b.dataset.seg)});
+
+/* ---------- calculadora ---------- */
+const GIRO_TXT={3:'Mínimo: um jogo no quarto, um na lavanderia e um no estoque.',4:'Recomendado: inclui um jogo de reserva para picos de ocupação.',5:'Para giro alto, como motéis, ou lavanderia terceirizada.'};
+let lastCalc=null;
+function calc(){
+  const f=$('#calcForm');
+  const tipo=f.tipo.value, giro=+f.giro.value;
+  let u=Math.max(1,Math.min(1000,parseInt($('#cQtd').value)||1));
+  const hosp = tipo==='hospital';
+  $('#cCamaField').style.display = hosp?'none':'';
+  $('#cQtdLbl').textContent = hosp?'Número de leitos':'Número de quartos';
+  $('#cRange').setAttribute('aria-label', hosp?'Ajustar número de leitos':'Ajustar número de quartos');
+  const cama = hosp?'solteiro':f.cama.value;
+  const camas = cama==='duas'?2:1;
+  const hosp_por_q = cama==='casal'?2:(cama==='duas'?2:1);
+  const trav = cama==='casal'?2:1;
+  const rows=[];
+  rows.push(['Lençóis', u*camas*2*giro]);
+  rows.push(['Fronhas', u*camas*trav*giro]);
+  if(hosp){
+    rows.push(['Camisolas hospitalares', u*giro*2]);
+    rows.push(['Cobertores', Math.ceil(u*1.5)]);
+    rows.push(['Toalhas de banho', u*giro]);
+  } else {
+    rows.push(['Toalhas de banho', u*hosp_por_q*giro]);
+    rows.push(['Toalhas de rosto', u*hosp_por_q*giro]);
+    rows.push(['Toalhas de piso', u*giro]);
+    rows.push(['Edredons', Math.ceil(u*camas*1.1)]);
+  }
+  rows.push(['Travesseiros', Math.ceil(u*camas*trav*1.1)]);
+  const total=rows.reduce((a,r)=>a+r[1],0);
+  $('#outTitle').textContent=`Estimativa para ${fmt(u)} ${hosp?'leitos':'quartos'}`;
+  $('#outSub').textContent=`Giro de ${giro} jogos · ${hosp?'hospital':tipo}`;
+  $('#outList').innerHTML=rows.map(r=>`<li><span>${r[0]}</span><b>${fmt(r[1])}</b></li>`).join('');
+  $('#outTotal').textContent=fmt(total);
+  $('#giroHint').textContent=GIRO_TXT[giro];
+  const roles=['No quarto','Na lavanderia','No estoque','Reserva','Giro extra'];
+  const mini=(on)=>`<svg viewBox="0 0 56 40" class="${on?'':'off'}"><rect x="6" y="24" width="44" height="11" rx="4" fill="#fff" stroke="#8FA68F"/><rect x="3" y="14" width="44" height="11" rx="4" fill="#fff" stroke="#8FA68F"/><rect x="8" y="4" width="44" height="11" rx="4" fill="#fff" stroke="#8FA68F"/><rect x="8" y="11" width="44" height="2" fill="#B48A3C"/></svg>`;
+  $('#giroVis').innerHTML=roles.map((t,i)=>`<div>${mini(i<giro)}<span>${t}</span></div>`).join('');
+  lastCalc={u,hosp,total,tipo,giro};
+}
+$('#calcForm').addEventListener('input',e=>{
+  if(e.target.id==='cRange') $('#cQtd').value=e.target.value;
+  if(e.target.id==='cQtd') $('#cRange').value=e.target.value;
+  calc();
+});
+$$('[data-step]').forEach(b=>b.addEventListener('click',()=>{
+  const v=Math.max(1,(parseInt($('#cQtd').value)||0)+ +b.dataset.step);
+  $('#cQtd').value=v; $('#cRange').value=v; calc();
+}));
+$('#calcAdd').addEventListener('click',()=>{
+  const c=lastCalc;
+  addItem({id:'calc',nome:`Enxoval estimado para ${c.u} ${c.hosp?'leitos':'quartos'} (giro ${c.giro})`,marca:'Calculadora',unit:'peças'},c.total);
+  const un=$('#fUn'); if(un && !un.value) un.value=c.u;
+});
+
+/* ---------- catálogo ---------- */
+const CATS=['Todos',...new Set(PRODUCTS.map(p=>p.cat))];
+let cat='Todos', expanded=false;
+const LIMIT=()=>innerWidth<1000?6:9;
+function stackSVG(p){
+  const c=p.c||'#fff', b=p.band, t=p.vis==='terry';
+  const layers=[[20,58],[14,40],[24,22]].map(([x,y])=>`<g transform="translate(${x} ${y})"><rect width="78" height="20" rx="6" fill="${c}" stroke="#AEBAAE" stroke-width="1.2"/>${t?'<rect width="78" height="20" rx="6" fill="url(#terry)"/>':''}<path d="M7 7h64" stroke="rgba(0,0,0,.09)" stroke-width="1.2"/>${b?`<rect y="13" width="78" height="3" fill="${b}"/>`:''}</g>`).join('');
+  return `<svg viewBox="0 0 116 92" aria-hidden="true"><defs><pattern id="terry" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".7" fill="rgba(0,0,0,.13)"/></pattern></defs>${layers}</svg>`;
+}
+function visual(p){
+  if(p.vis==='obj') return `<div class="swatch obj"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${ICONS[p.icon]}</svg></div>`;
+  return `<div class="swatch stack">${stackSVG(p)}</div>`;
+}
+function renderProducts(){
+  const q=$('#q').value.trim().toLowerCase();
+  const items=PRODUCTS.filter(p=>(cat==='Todos'||p.cat===cat)&&(!q||(p.nome+p.marca+p.spec+p.cat).toLowerCase().includes(q)));
+  $('#filters').innerHTML=CATS.map(c=>`<button aria-pressed="${c===cat}" data-cat="${c}">${c}</button>`).join('');
+  const lim=LIMIT(), shown=expanded?items:items.slice(0,lim);
+  const mb=$('#moreBtn'); mb.hidden=items.length<=lim; mb.textContent=expanded?'Mostrar menos':`Ver todos os ${items.length} produtos`;
+  $('#products').innerHTML = items.length ? shown.map(p=>`
+    <article class="prod">
+      ${visual(p)}
+      <div class="info"><span class="b">${p.marca}</span><h4>${p.nome}</h4><p class="spec">${p.spec}</p></div>
+      <div class="add"><small>${p.cat}</small><div class="act" data-act="${p.id}"></div></div>
+    </article>`).join('') : `<p class="empty">Nenhum produto encontrado para “${q}”. Tente outro termo ou fale com um consultor.</p>`;
+  renderList();
+}
+$('#filters').addEventListener('click',e=>{const b=e.target.closest('[data-cat]');if(b){cat=b.dataset.cat;expanded=false;renderProducts();}});
+$('#moreBtn').addEventListener('click',()=>{expanded=!expanded;renderProducts();if(!expanded)$('#catalogo').scrollIntoView()});
+$('#q').addEventListener('input',()=>{expanded=false;renderProducts()});
+$('#products').addEventListener('click',e=>{
+  const b=e.target.closest('[data-add]'); if(!b) return;
+  const p=PRODUCTS.find(x=>x.id===b.dataset.add);
+  addItem(p, p.unit==='peça'?20:1);
+});
+
+/* ---------- gaveta / modal ---------- */
+const scrim=$('#scrim'), drawer=$('#drawer'), modal=$('#modal');
+function openList(){document.body.classList.add('drawer-open');drawer.classList.add('open');drawer.setAttribute('aria-hidden','false');scrim.classList.add('show');drawer.querySelector('.x').focus()}
+function closeAll(){document.body.classList.remove('drawer-open');drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');modal.classList.remove('open');scrim.classList.remove('show')}
+$$('[data-open-list]').forEach(b=>b.addEventListener('click',openList));
+document.addEventListener('click',e=>{if(e.target.closest('[data-close]'))closeAll()});
+scrim.addEventListener('click',closeAll);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()});
+
+function waText(extra){
+  const itens=list.length?list.map(i=>`• ${fmt(i.qty)} × ${i.nome} (${i.marca})`).join('\n'):'• Ainda sem itens na lista';
+  return `Olá! Vim pelo site da Solução Enxovais.${extra||''}\n\nMinha lista:\n${itens}`;
+}
+$$('[data-wa]').forEach(b=>b.addEventListener('click',()=>{
+  $('#mTitle').textContent='Conversa no WhatsApp';
+  $('#mText').textContent='No site real, este botão abre o WhatsApp do consultor com a mensagem abaixo já escrita.';
+  $('#mWa').textContent=waText();
+  modal.classList.add('open');scrim.classList.add('show');
+}));
+
+/* ---------- formulário ---------- */
+$('#qform').addEventListener('submit',e=>{
+  e.preventDefault();
+  let ok=true;
+  [['fNome',v=>v.length>1],['fEmp',v=>v.length>1],['fTel',v=>v.replace(/\D/g,'').length>=10],['fCid',v=>v.length>1]].forEach(([id,fn])=>{
+    const el=$('#'+id), good=fn(el.value.trim());
+    el.closest('.f').classList.toggle('invalid',!good);
+    if(!good&&ok){el.focus();ok=false}
+  });
+  if(!ok) return;
+  const prot='SE-'+String(Math.floor(Math.random()*90000)+10000);
+  const nome=$('#fNome').value.trim().split(' ')[0];
+  $('#mTitle').textContent='Pedido enviado';
+  $('#mText').textContent=`Obrigado, ${nome}. Seu protocolo é ${prot}. Um consultor responde em até um dia útil. (Simulação: nada foi enviado.)`;
+  $('#mWa').textContent=waText(`\nSou ${$('#fNome').value.trim()}, da ${$('#fEmp').value.trim()} (${$('#fCid').value.trim()}).\n${$('#fTipo').value}${$('#fUn').value?' com '+$('#fUn').value+' quartos/leitos':''}.`);
+  modal.classList.add('open');scrim.classList.add('show');
+});
+$('#fTel').addEventListener('input',e=>{
+  let d=e.target.value.replace(/\D/g,'').slice(0,11);
+  e.target.value = d.length>6 ? `(${d.slice(0,2)}) ${d.slice(2,3)} ${d.slice(3,7)}-${d.slice(7)}` : d.length>2 ? `(${d.slice(0,2)}) ${d.slice(2)}` : d;
+});
+
+/* ---------- header, menu, números ---------- */
+window.addEventListener('scroll',()=>$('#top').classList.toggle('scrolled',scrollY>10),{passive:true});
+const mb=$('#menuBtn'), mn=$('#mobileNav');
+mb.addEventListener('click',()=>{const o=mn.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+mn.addEventListener('click',e=>{if(e.target.closest('a')){mn.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
+
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const facts=$$('[data-to]');
+const show=el=>{const to=+el.dataset.to,p=el.dataset.prefix||'',s=el.dataset.suffix||'';
+  if(reduce){el.textContent=p+to+s;return}
+  const t0=performance.now();const tick=t=>{const k=Math.min(1,(t-t0)/1200),e=1-Math.pow(1-k,3);el.textContent=p+Math.round(to*e)+s;if(k<1)requestAnimationFrame(tick)};requestAnimationFrame(tick)};
+if('IntersectionObserver' in window){
+  if(!reduce) facts.forEach(el=>el.textContent=(el.dataset.prefix||'')+'0'+(el.dataset.suffix||''));
+  const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){show(en.target);io.unobserve(en.target)}}),{threshold:.4});
+  facts.forEach(f=>io.observe(f));
+} else facts.forEach(show);
+
+/* ---------- init ---------- */
+$('#roomHint').textContent = matchMedia('(pointer:fine)').matches ? 'Clique nos pontos para ver cada item' : 'Toque nos pontos para ver cada item';
+renderSpots(); renderSeg('hotel'); calc(); renderProducts(); renderList();
+</script>
+</body>
+</html>
