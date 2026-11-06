@@ -9,6 +9,7 @@
 <meta property="og:description" content="Enxoval, colchões, amenities e equipamentos das melhores marcas para hotéis e hospitais de MS e MT.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#143A2E">
+<meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -372,6 +373,24 @@ html,body{overflow-x:clip}
   .out-list li b{font-size:1.6rem}
 }
 
+
+/* ===== aviso de protótipo ===== */
+.proto{background:var(--brass);color:#fff;font-size:.86rem;font-weight:600;padding:9px 16px;line-height:1.35}
+.proto button{background:none;border:0;color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:700;padding:0 0 0 6px;font-size:inherit}
+.draft-tag .long{display:none}
+@media (min-width:900px){.draft-tag .long{display:inline}}
+.draft-tag{position:absolute;top:12px;left:12px;z-index:1;background:rgba(255,255,255,.92);color:var(--forest);font-size:.74rem;font-weight:700;padding:5px 10px;border-radius:999px;border:1.5px dashed var(--brass);pointer-events:none}
+.case-art .draft-tag{top:10px;left:10px}
+.intro{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;background:rgba(20,58,46,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.intro[hidden]{display:none}
+.intro-box{background:var(--paper);border-radius:var(--r-l);max-width:480px;width:100%;padding:30px 26px;display:grid;gap:16px;border-top:6px solid var(--brass);max-height:90vh;overflow:auto}
+.intro-box .stamp{justify-self:start;font-weight:700;font-size:.82rem;color:#7a5a1c;background:var(--brass-soft);border-radius:999px;padding:6px 12px}
+.intro-box h2{font-size:2.2rem;color:var(--forest)}
+.intro-box ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.intro-box li{display:grid;grid-template-columns:24px 1fr;gap:10px;color:var(--ink)}
+.intro-box li svg{width:20px;height:20px;color:var(--brass);margin-top:2px}
+.intro-box .sig{font-size:.9rem;color:var(--muted)}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}
@@ -380,7 +399,7 @@ html,body{overflow-x:clip}
 </head>
 <body>
 
-<div class="proto" role="note">Protótipo de demonstração. Marcas parceiras reais; números, cases, depoimentos e contatos são fictícios.</div>
+<div class="proto" role="note">PROTÓTIPO: esboço de ideias. As imagens, textos e números são provisórios; o site final terá fotos e produtos reais.<button type="button" data-intro>Saiba mais</button></div>
 
 <header class="top" id="top">
   <div class="wrap">
@@ -555,6 +574,7 @@ html,body{overflow-x:clip}
             <path d="M664 312h110" stroke="#7B8780" stroke-width="2"/>
           </g>
         </svg>
+        <span class="draft-tag">Ilustração provisória<span class="long">: no site final, foto real do quarto</span></span>
         <div id="hotspots"></div>
         <span class="room-tag" id="roomTag" aria-hidden="true"></span>
         <span class="room-hint" id="roomHint">Toque nos pontos para ver cada item</span>
@@ -656,6 +676,7 @@ html,body{overflow-x:clip}
     <div class="sec-head">
       <h2>Catálogo com ficha técnica</h2>
       <p class="lead">Sem baixar PDF. Filtre, compare a especificação e monte sua lista de orçamento item por item.</p>
+      <p class="hint">No protótipo, os produtos e as imagens são exemplos. No site final, cada item terá foto real e a ficha técnica do fabricante.</p>
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -672,7 +693,7 @@ html,body{overflow-x:clip}
   <div class="wrap">
     <div class="sec-head">
       <h2>Quartos que já montamos</h2>
-      <p class="lead">Projetos de abertura, retrofit e reposição contínua em MS e MT. Exemplos ilustrativos.</p>
+      <p class="lead">Projetos de abertura, retrofit e reposição contínua em MS e MT. No protótipo, cases, números e depoimentos são exemplos inventados.</p>
     </div>
     <div class="case-facts">
     <div class="fact"><b data-to="18">18</b><span>anos equipando a hotelaria</span></div>
@@ -682,8 +703,8 @@ html,body{overflow-x:clip}
   </div>
     <div class="case-track">
       <article class="case">
-        <div class="case-art" style="background:linear-gradient(180deg,#8FB3A6 0 55%,#4E7A64 55% 100%)">
-          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><path d="M0 100c50-20 90 10 150-6s100-20 150 0v76H0z" fill="#2F5D4A"/><path d="M0 130c60-10 120 14 180 0s90-6 120 4v36H0z" fill="#9CC7D0"/><circle cx="230" cy="40" r="16" fill="#EBDDBF"/></svg>
+        <div class="case-art" data-draft style="background:linear-gradient(180deg,#8FB3A6 0 55%,#4E7A64 55% 100%)">
+          <span class="draft-tag">Foto real do projeto no site final</span><svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><path d="M0 100c50-20 90 10 150-6s100-20 150 0v76H0z" fill="#2F5D4A"/><path d="M0 130c60-10 120 14 180 0s90-6 120 4v36H0z" fill="#9CC7D0"/><circle cx="230" cy="40" r="16" fill="#EBDDBF"/></svg>
         </div>
         <div class="case-body">
           <span class="where">Resort de ecoturismo · Bonito, MS</span>
@@ -694,8 +715,8 @@ html,body{overflow-x:clip}
         </div>
       </article>
       <article class="case">
-        <div class="case-art" style="background:#DCE8EA">
-          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><rect x="70" y="40" width="160" height="130" fill="#F7F8F4"/><g fill="#9FC3C7"><rect x="88" y="58" width="24" height="20"/><rect x="138" y="58" width="24" height="20"/><rect x="188" y="58" width="24" height="20"/><rect x="88" y="98" width="24" height="20"/><rect x="138" y="98" width="24" height="20"/><rect x="188" y="98" width="24" height="20"/></g><rect x="140" y="140" width="20" height="30" fill="#7EA4B8"/><path d="M146 20h8v8h8v8h-8v8h-8v-8h-8v-8h8z" fill="#B48A3C"/></svg>
+        <div class="case-art" data-draft style="background:#DCE8EA">
+          <span class="draft-tag">Foto real do projeto no site final</span><svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><rect x="70" y="40" width="160" height="130" fill="#F7F8F4"/><g fill="#9FC3C7"><rect x="88" y="58" width="24" height="20"/><rect x="138" y="58" width="24" height="20"/><rect x="188" y="58" width="24" height="20"/><rect x="88" y="98" width="24" height="20"/><rect x="138" y="98" width="24" height="20"/><rect x="188" y="98" width="24" height="20"/></g><rect x="140" y="140" width="20" height="30" fill="#7EA4B8"/><path d="M146 20h8v8h8v8h-8v8h-8v-8h-8v-8h8z" fill="#B48A3C"/></svg>
         </div>
         <div class="case-body">
           <span class="where">Hospital regional · Dourados, MS</span>
@@ -706,8 +727,8 @@ html,body{overflow-x:clip}
         </div>
       </article>
       <article class="case">
-        <div class="case-art" style="background:linear-gradient(180deg,#E8C98A,#C98F5A)">
-          <svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><g fill="#143A2E"><rect x="40" y="60" width="40" height="110"/><rect x="90" y="30" width="56" height="140"/><rect x="156" y="80" width="40" height="90"/><rect x="206" y="50" width="54" height="120"/></g><g fill="#EBDDBF"><rect x="100" y="44" width="8" height="8"/><rect x="118" y="44" width="8" height="8"/><rect x="100" y="64" width="8" height="8"/><rect x="128" y="84" width="8" height="8"/><rect x="216" y="66" width="8" height="8"/><rect x="236" y="86" width="8" height="8"/></g></svg>
+        <div class="case-art" data-draft style="background:linear-gradient(180deg,#E8C98A,#C98F5A)">
+          <span class="draft-tag">Foto real do projeto no site final</span><svg viewBox="0 0 300 170" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true"><g fill="#143A2E"><rect x="40" y="60" width="40" height="110"/><rect x="90" y="30" width="56" height="140"/><rect x="156" y="80" width="40" height="90"/><rect x="206" y="50" width="54" height="120"/></g><g fill="#EBDDBF"><rect x="100" y="44" width="8" height="8"/><rect x="118" y="44" width="8" height="8"/><rect x="100" y="64" width="8" height="8"/><rect x="128" y="84" width="8" height="8"/><rect x="216" y="66" width="8" height="8"/><rect x="236" y="86" width="8" height="8"/></g></svg>
         </div>
         <div class="case-body">
           <span class="where">Hotel executivo · Cuiabá, MT</span>
@@ -795,7 +816,7 @@ html,body{overflow-x:clip}
     <div><h4>Contato</h4><ul><li>(67) 9 0000-0000</li><li>contato@exemplo.com.br</li><li>Campo Grande, MS</li></ul></div>
     <div><h4>Navegar</h4><ul><li><a href="#segmentos">Segmentos</a></li><li><a href="#calculadora">Calculadora</a></li><li><a href="#catalogo">Catálogo</a></li><li><a href="#cases">Cases</a></li></ul></div>
     <div><h4>Redes</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">LinkedIn</a></li></ul></div>
-    <p class="legal">Protótipo de demonstração. CNPJ 00.000.000/0001-00 (fictício) · Política de privacidade</p>
+    <p class="legal">Protótipo de demonstração, não é o site final. Imagens, textos, números e contatos são provisórios. CNPJ fictício.</p>
   </div>
 </footer>
 
@@ -806,6 +827,22 @@ html,body{overflow-x:clip}
 </div>
 <button class="wa-float" data-wa aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3c-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg></button>
 
+
+<div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle">
+  <div class="intro-box">
+    <span class="stamp">Protótipo</span>
+    <h2 id="introTitle">Este é um esboço do novo site</h2>
+    <p>Montei esta prévia para mostrar as ideias de layout e as funções que o site pode ter. Ainda não é o site final.</p>
+    <ul>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span><b>As imagens serão reais.</b> As ilustrações do quarto, dos produtos e dos cases serão trocadas por fotos de verdade.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span><b>Os produtos serão os reais</b>, com nomes, fichas técnicas e catálogos das marcas que vocês vendem.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span><b>Números, cases, depoimentos e contatos são inventados</b>, só para ocupar o espaço.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg><span><b>As funções são simuladas.</b> Dá para clicar e testar, mas nada é enviado de verdade.</span></li>
+    </ul>
+    <p class="sig">Cores, textos e seções podem ser ajustados juntos antes de qualquer coisa ir ao ar.</p>
+    <button class="btn btn-primary" id="introOk">Entendi, ver o protótipo</button>
+  </div>
+</div>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Lista de orçamento" aria-hidden="true">
   <div class="drawer-head"><h3>Lista de orçamento</h3><button class="x" data-close aria-label="Fechar">×</button></div>
@@ -1168,6 +1205,17 @@ if('IntersectionObserver' in window){
   const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){show(en.target);io.unobserve(en.target)}}),{threshold:.4});
   facts.forEach(f=>io.observe(f));
 } else facts.forEach(show);
+
+
+/* ---------- aviso de protótipo ---------- */
+const intro=$('#intro');
+function closeIntro(){intro.hidden=true;document.body.style.overflow=''}
+function openIntro(){intro.hidden=false;document.body.style.overflow='hidden';$('#introOk').focus()}
+$('#introOk').addEventListener('click',closeIntro);
+intro.addEventListener('click',e=>{if(e.target===intro)closeIntro()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!intro.hidden)closeIntro()});
+$$('[data-intro]').forEach(b=>b.addEventListener('click',openIntro));
+openIntro();
 
 /* ---------- init ---------- */
 $('#roomHint').textContent = matchMedia('(pointer:fine)').matches ? 'Clique nos pontos para ver cada item' : 'Toque nos pontos para ver cada item';
